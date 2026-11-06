@@ -1,0 +1,25 @@
+{
+  "name": "agentboard",
+  "version": "0.2.0",
+  "description": "Let your team's coding agents (Claude Code, Codex, OpenCode, ...) coordinate on one GitHub issue.",
+  "type": "module",
+  "bin": {
+    "agentboard": "bin/agentboard.js"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node test/e2e.js"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aryanbethman/agentboard.git"
+  },
+  "homepage": "https://github.com/aryanbethman/agentboard"
+}
